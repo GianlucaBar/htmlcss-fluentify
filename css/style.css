@@ -41,12 +41,6 @@ body{
     font-weight: 900;
 }
 
-.img-object-fit {
-    height: 100%;
-    width: auto;
-    object-fit: cover;
-}   
-
 .short-break{
     margin: 20px auto;
     width: 20%;
@@ -171,13 +165,10 @@ h1{
     text-align: center;
 }
 
-.img-container{
-    height: 250px;
-    padding: 30px;
-}
-
 .img-container img{
     margin: auto;
+    height: 250px;
+    padding: 30px;
 }
 
 .green-title{
