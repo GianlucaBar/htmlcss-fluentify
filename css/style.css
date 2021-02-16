@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* common  */
 img{
     display: block;
@@ -12,6 +13,13 @@ img{
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.help{
+    position: fixed;
+    bottom: 8px;
+    right: 15%;
+}
+
 .col{
     float: left;
 }
@@ -30,6 +38,7 @@ body{
     font-size: 15px;
     line-height: 30px;
     color: grey;
+    font-weight: 900;
 }
 
 .img-object-fit {
@@ -47,12 +56,21 @@ body{
     margin: 40px auto;
     width: 95%;
 }
+
+.btn-green{
+    border-radius: 5px;
+    background-color: #7cbb02;
+    color: white;
+    padding: 11px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 /* fine common  */
 
 /* HEADER  */
 header{
     height: 600px;
-    background-color: rgb(22, 4, 185);
+    background-color: rgb(12 50 90);
     background-image: url("../img/background-header.png");
     background-size: 1200px;
     background-repeat: no-repeat;
@@ -62,7 +80,7 @@ nav{
     padding: 20px 0;
 }
 .container{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -77,6 +95,7 @@ nav{
 
 .menu-right{
     width: 35%;
+    text-align: right;
 }
 
 .menu{
@@ -107,18 +126,10 @@ nav{
     padding: 10px 20px;
 }
 
-.btn-green{
-    border-radius: 5px;
-    background-color: rgb(56, 180, 18);
-    color: white;
-    padding: 11px 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
 .header-text{
     margin-top: 15%;
-    width: 40%;
+    width: 50%;
 }
 
 h1{
@@ -127,7 +138,7 @@ h1{
 }
 
 .header-text a{
-     margin-top: 20px;
+    margin-top: 20px;
     padding: 20px 20px;
     display: inline-block;
 } 
@@ -135,7 +146,7 @@ h1{
 
 /* inizio MAIN  */
 
-/* inizio sezione slogan */
+/* sezione slogan */
 .slogan{
     text-align: center;
     padding: 40px;
@@ -147,7 +158,7 @@ h1{
 }
 /* fine slogan  */
 
-/* inizio features  */
+/* sezione features  */
 
 .col-left, .col-right{
     width: 30%; 
@@ -170,7 +181,69 @@ h1{
 }
 
 .green-title{
-    color: rgb(56, 180, 18);
+    color: #7cbb02;
     font-size: 25px;
     line-height: 35px;
 }
+/* fine features  */
+
+/* sezione discover  */
+.col-picture{
+    width: 48%;
+    margin-right: 2%;
+    padding: 25px;
+}
+
+.col-discover{
+    width: 48%;
+    padding: 25px;
+}
+
+.img-mountain{
+    height: 500px;
+
+}
+
+.cta{
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.col-discover .grey-text{
+    margin: 15px 0;
+    font-size: 20px;
+}
+/* fine discover  */
+
+/* FOOTER  */
+footer .container{
+    padding: 50px;
+}
+.footer-left{
+    width: 50%;
+}
+
+.footer-right{
+    width: 50%;
+    text-align: right;
+}
+
+.footer-right a{
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.drop-down{
+    text-decoration: underline;
+    font-weight: 900;
+    color: grey;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.drop-down::after{
+    content:  "\25BC";
+}
+
+/* fine FOOTER  */
