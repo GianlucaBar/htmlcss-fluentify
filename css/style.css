@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common  */
+img{
+    display: block;
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine common  */
+
+/* HEADER  */
+header{
+    height: 600px;
+    background-color: rgb(22, 4, 185);
+    background-image: url("../img/background-header.png");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: 108% 125%;
+}
+nav{
+    padding: 20px 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 10%;
+}
+
+.menu-central{
+    width: 55%;
+    padding-left: 30px;
+}
+
+.menu-right{
+    width: 35%;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    line-height: 55px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.menu li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.menu li a:hover{
+    color: orange;
+}
+
+.login-btn{
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-green{
+    border-radius: 5px;
+    background-color: rgb(56, 180, 18);
+    color: white;
+    padding: 11px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-text{
+    margin-top: 15%;
+    width: 40%;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.header-text a{
+     margin-top: 20px;
+    padding: 20px 20px;
+    display: inline-block;
+} 
+/* fine HEADER  */
+
+/* inizio MAIN  */
+
+/* inizio sezione slogan */
+
