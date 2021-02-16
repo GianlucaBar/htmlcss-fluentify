@@ -21,6 +21,32 @@ body{
     display: table;
     clear: both;
 }
+
+.bg-grey{
+    background-color: rgb(197, 195, 195);
+}
+
+.grey-text{
+    font-size: 15px;
+    line-height: 30px;
+    color: grey;
+}
+
+.img-object-fit {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}   
+
+.short-break{
+    margin: 20px auto;
+    width: 20%;
+}
+
+.long-break{
+    margin: 40px auto;
+    width: 95%;
+}
 /* fine common  */
 
 /* HEADER  */
@@ -110,4 +136,41 @@ h1{
 /* inizio MAIN  */
 
 /* inizio sezione slogan */
+.slogan{
+    text-align: center;
+    padding: 40px;
+}
 
+.slogan h3{
+    font-size: 25px;
+    line-height: 50px;
+}
+/* fine slogan  */
+
+/* inizio features  */
+
+.col-left, .col-right{
+    width: 30%; 
+    text-align: center;
+}
+
+.col-middle{
+    width: 30%;
+    margin: 0 5%;  
+    text-align: center;
+}
+
+.img-container{
+    height: 250px;
+    padding: 30px;
+}
+
+.img-container img{
+    margin: auto;
+}
+
+.green-title{
+    color: rgb(56, 180, 18);
+    font-size: 25px;
+    line-height: 35px;
+}
